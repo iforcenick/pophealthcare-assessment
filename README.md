@@ -1,27 +1,34 @@
-# Pophealthcare
+Overview
+Using Angular, consume the open source Joke API to fetch and display a random joke. Your work can be delivered via a publicly available Github repo. Please complete at your earliest convenience.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Instructions
+*        Login or create a free account at Github and create your project / repo.
 
-## Development server
+*        Build an application meeting criteria below.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+*        Email us the link to the public repo once finished.
 
-## Code scaffolding
+Functionality/Acceptance Criteria
+ The purpose of the application is to load and show a random joke from the Jokes API
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+·         API details can be found at https://github.com/15Dkatz/official_joke_api
 
-## Build
+·         The screen should render nicely on any device (desktop or mobile).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ 
 
-## Running unit tests
+ On initial screen load, show the setup (first sentence) of a random joke
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+·         Show a loading state while data is being retrieved from the API
 
-## Running end-to-end tests
+·         Show error state if the API is down
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ Display a “Show Punchline” button
 
-## Further help
+·         Show the punchline (second sentence) of the joke
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+·         The ”Show Punchline” button should now read “Hide Punchline”
+
+·         Clicking “Hide Punchline” should hide the punchline of the joke
+
+ 

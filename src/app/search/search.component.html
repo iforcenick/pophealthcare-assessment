@@ -1,0 +1,14 @@
+<div *ngFor="let joke of jokes" class="table-borderless">
+    <div class="lead">
+        <h2>{{joke["setup"]}}</h2>
+        <h3 *ngIf="isShowPunchline">{{joke["punchline"]}}</h3>
+    </div>
+    <div class="btn btn-primary" (click)="togglePunchline()">{{ isShowPunchline ? "Hide Punchline" : "Show Punchline" }}</div>
+    <br>
+</div>
+
+<br/>
+<br/>
+<div class="row">Need Another Joke?</div>
+<br/>
+<div class="btn btn-info" onClick="history.go(0)">click me</div>
